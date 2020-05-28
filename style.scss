@@ -1,0 +1,12 @@
+@import "./sass/variables.scss";
+@import "./sass/content.scss";
+@import "./sass/header.scss";	
+@import "./sass/secondhearder.scss";
+@import "./sass/footer.scss";
+
+
+.body {
+	color: $b-color-ui;
+	display: block;
+}
+

@@ -1,0 +1,153 @@
+$b-color-ui-1: #000;
+$b-color-ui-2: #777777;
+
+body{
+margin:0px;	
+}
+.conteiner {
+    margin: 0 150px;
+    padding: 30px 0;
+
+}
+.navigation{
+	display:none; 
+	margin-top:10px;
+	margin-bottom:0; 
+	color:$b-color-ui-2;
+	font-size:23px;   
+}
+.poloskimg{
+display:none;
+margin-left:325px; 
+margin-top:5px; 
+}
+.brend1 {
+    color: $b-color-ui;
+    height: 47px;
+    display:block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+.brend1:hover {
+    border-bottom: 1px solid #DB3535;
+}
+a.brend_url {
+    height: 45px;
+    text-decoration: none;
+}
+
+.brend {
+    margin: 0 137px;
+    border-bottom: 1px solid;
+    width: 1149px;
+    height: 50px;
+    display: inline-block;
+}
+@media screen and (min-width:680px) and (max-width:1000px){
+	.underline{
+		width:100%; 
+	}
+	.navigation{
+	display:inline-block; 
+	position:absolute;
+	top:240px;
+	}
+	.brend1{
+	display:none; 
+	}
+	.brend{
+		width:780px; 
+	}
+	.poloskimg{
+	display:block;
+	text-align:right; 
+	margin-top:0px;
+	position:absolute;
+	right:0; 
+	top:250px;
+	margin-right:3px;  
+	}  
+	.text{ 
+    display:inline-block;
+    position:relative;
+      left:400px;
+	  bottom:73px;
+	  margin:0px;  
+	}
+	.geneva{
+		height:100px; 
+	}
+	.search{
+		margin:0;
+	}
+	.searchtop{
+	position: absolute;
+	left:-460px;
+	
+	}
+	.searchimg{
+		position: absolute;
+		left:-160px;
+	}
+	
+	
+}
+
+@media screen and (max-width:680px){
+	.underline{
+		width:100%; 
+	}
+	.navigation{
+	display:inline-block;
+	position:absolute;
+	top:270px; 
+	}
+	.brend1{
+	display:none; 
+	}
+	.brend{
+		width:480px; 
+	}
+	.poloskimg{
+	display:block;
+	text-align:right; 
+	margin-top:0px;
+	position:absolute;
+	top:276px;	
+	right:5px;
+	}
+	.conteiner{
+     padding-top:9px;
+     margin-left:180px;
+     margin-bottom:50px;    
+	}
+	.onlyorig{
+		padding-top:0;
+		margin-left:60px;  
+	}
+	.fotogeneva{
+		margin:0 0 0 60px;
+
+	}
+	.searchtop{
+		position:absolute;
+		right:-30px;
+	}
+	.searchimg{
+		position:absolute;
+		right:19px;
+	}
+	.container{
+		margin-left:25px;
+		text-align: center;
+	}
+}
+@media screen and (max-width:632px){
+
+.phone{
+	height:52px; 
+}
+
+
+	}
